@@ -140,7 +140,7 @@ SET member_address='125 Main St'
 WHERE member_id='C101';
 ```
 
-**Delete a Record from the Issued Status Table**
+**Task 3.Delete a Record from the Issued Status Table**
 -- Objective: Delete the record with issued_id = 'IS121' from the issued_status table.
 
 ```sql
@@ -265,16 +265,10 @@ ist.issued_id = rs.issued_id
 WHERE rs.return_id IS NULL;
 
 ```
-
-## Reports
-
-- **Database Schema**: Detailed table structures and relationships.
-- **Data Analysis**: Insights into book categories, employee salaries, member registration trends, and issued books.
-
 ## Conclusion
 
 This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and querying, providing a solid foundation for data management and analysis.
 
-- **LinkedIn**: [Connect with me professionally](www.linkedin.com/in/smtahaimran)
+- **LinkedIn**: [www.linkedin.com/in/smtahaimran]
 
 Thank you for your interest in this project!
