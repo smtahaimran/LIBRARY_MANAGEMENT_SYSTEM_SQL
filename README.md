@@ -6,7 +6,7 @@
 **Level**: Intermediate  
 **Database**: `library_project_2`
 
-This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
+This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
 ![Library_project](library.jpg)
 
@@ -122,8 +122,8 @@ REFERENCES issued_status(issued_id);
 
 - **Create**: Inserted sample records into the `books` table.
 - **Read**: Retrieved and displayed data from various tables.
-- **Update**: Updated records in the `employees` table.
-- **Delete**: Removed records from the `members` table as needed.
+- **Update**: Updated records in the `members` table.
+- **Delete**: Removed records from the `issued_status` table as needed.
 
 **Task 1. Create a New Book Record**
 "('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')"
@@ -270,11 +270,10 @@ WHERE rs.return_id IS NULL;
 
 - **Database Schema**: Detailed table structures and relationships.
 - **Data Analysis**: Insights into book categories, employee salaries, member registration trends, and issued books.
-- **Summary Reports**: Aggregated data on high-demand books and employee performance.
 
 ## Conclusion
 
-This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
+This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and querying, providing a solid foundation for data management and analysis.
 
 - **LinkedIn**: [Connect with me professionally](www.linkedin.com/in/smtahaimran)
 
