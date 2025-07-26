@@ -91,7 +91,7 @@ return_book_isbn VARCHAR(20)
 ```
 
 ### Foriegn Key
-***sql
+```sql
 ALTER TABLE issued_status
 ADD CONSTRAINT fk_members
 FOREIGN KEY(issued_member_id)
@@ -116,7 +116,7 @@ ALTER TABLE return_status
 ADD CONSTRAINT fk_issued_status
 FOREIGN KEY(issued_id)
 REFERENCES issued_status(issued_id);
-***
+```
 
 ### 2. CRUD Operations
 
